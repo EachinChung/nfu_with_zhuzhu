@@ -1,11 +1,17 @@
-# 此为注释 ,以下将被 Git 忽略
-venv/
+# IDE文件
 .idea/
-.env
-__pycache__
 .vscode
+
+# Python环境
+venv/
+.python-version
+__pycache__
+
+# Mac自动生成的文件
 .DS_Store
+
+# 环境变量
+.env
 
 # 此为私人cdn加速文件
 bus_ticket_cdn.html
-
